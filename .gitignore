@@ -1,5 +1,6 @@
 .idea/
 tf_autoencoder_logs/
+.vscode/
 
 # below from https://github.com/github/gitignore/blob/master/Python.gitignore
 
