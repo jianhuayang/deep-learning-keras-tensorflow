@@ -19,14 +19,21 @@ conda -V
 conda update conda
 conda create --name deep
 conda activate deep
-conda install jupyter tensorflow keras 
+conda install jupyter tensorflow keras pylint
+conda install -c conda-forge matplotlib
 conda install -c conda-forge jupyter_contrib_nbextensions
 jupyter contrib nbextension install --user
 conda install -c conda-forge jupyter_nbextensions_configurator
 jupyter nbextensions_configurator enable --user
 
-# and then can run 
+# and then can run
+conda activate deep 
 jupyter notebook
 # visit http://localhost:8889/nbextensions to configue nbextensions
 conda deactivate
 ```
+
+
+
+# now try to run using ubuntu_home, see file at 
+C:\Users\yang_j\Documents\warwick\notes\linux_ubuntu_home.sh
